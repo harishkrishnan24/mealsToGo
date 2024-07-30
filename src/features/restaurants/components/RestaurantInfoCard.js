@@ -1,7 +1,7 @@
 import { Text, StyleSheet } from "react-native";
 import { Card } from "react-native-paper";
 
-const RestaurantInfo = ({ restaurant = {} }) => {
+const RestaurantInfoCard = ({ restaurant = {} }) => {
   const {
     name = "Some Restaurant",
     icon,
@@ -26,4 +26,4 @@ const styles = StyleSheet.create({
   title: { padding: 16 },
 });
 
-export default RestaurantInfo;
+export default RestaurantInfoCard;
